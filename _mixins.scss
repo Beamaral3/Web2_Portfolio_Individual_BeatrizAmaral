@@ -1,0 +1,30 @@
+@mixin barra {
+  position: fixed;
+  top:0px;
+  right: 0px;
+  left: 0px;
+  padding: 40px 5px;
+}
+@mixin menudef {
+  font-family: $titlefont;
+  font-size: $titlesize;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex: auto;
+}
+
+@mixin title {
+  font-family: $titlefont;
+  font-size: $titlesize;
+  margin-bottom: 2%;
+  line-height: 23px;
+}
+
+@mixin text {
+  font-family: $textfont;
+  font-size: $textsize;
+  line-height: 25px;
+  margin-left: 10%;
+}
