@@ -143,3 +143,43 @@ header{
   margin: 0% 18%;
 
 }
+
+
+@media only screen and (max-width: 1025px){
+
+.lista{
+  @include text;
+  margin: 40px -10%;
+  a{
+    text-decoration: none;
+    color: black;
+    font-size: 20pt;
+    line-height: 25pt;
+  }
+}
+  h4{
+    @include text;
+    font-size: 20pt;
+    margin: 40px -10%;
+    font-weight: normal;
+    line-height: 25pt;
+  }
+
+}
+
+.texto{
+  h2{
+    @include title;
+    font-size: 30pt;
+  }
+  h3{
+    @include title;
+    font-size: 25px;
+    line-height: 30pt;
+  }
+  p{
+    @include text;
+    font-size: 20pt;
+    line-height: 25pt;
+  }
+}
